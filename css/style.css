@@ -1,0 +1,60 @@
+.logo {
+    max-width: 250px;
+}
+
+
+.text-titulo{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.foto-nato{
+     max-width: 100%;
+     display: block; 
+}
+
+.foto-nato2{
+    flex-shrink: 0;
+}
+
+
+.texto-img {
+    flex: 1 1 auto;
+}
+
+
+
+.text-color-principal {
+  color: #EF4D5E;
+}
+
+.btn-principal {
+  background-color: #EF4D5E;
+  color: white;
+  border: none;
+  
+}
+
+.btn-principal:hover {
+  background-color: #d43b4a;
+  color: white;
+}
+
+.producto-img {
+  
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+ 
+}
+
+
+
+
+
+.fondo-footer{
+    background-color: #EF4D5E;
+}

@@ -1,5 +1,33 @@
-.logo {
-    max-width: 250px;
+
+.fondo-principal {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-navbar {
+  max-height: 80px;
+  width: auto;
+}
+
+.navbar .nav-link {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+  
+}
+
+.navbar .nav-link:hover {
+  color: #d43b4a; 
+  text-decoration: underline;
+}
+
+
+
+h1{
+  display: none;
+}
+
+.titulo-producto{
+  display: block;
 }
 
 
@@ -11,30 +39,17 @@
 }
 
 
-.foto-nato{
-     max-width: 100%;
-     display: block; 
-}
-
-.foto-nato2{
-    flex-shrink: 0;
-}
-
-
-.texto-img {
-    flex: 1 1 auto;
-}
-
-
 
 .text-color-principal {
   color: #EF4D5E;
 }
 
+
 .btn-principal {
   background-color: #EF4D5E;
   color: white;
   border: none;
+  
   
 }
 
@@ -42,6 +57,14 @@
   background-color: #d43b4a;
   color: white;
 }
+
+
+.btp {
+  width: 300px;
+}
+
+
+
 
 .producto-img {
   
@@ -55,6 +78,145 @@
 
 
 
+.banner-cr {
+  height: 400px; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  margin: 0 auto;
+  
+
+}
+
+
+.banner-1 {
+  background-image: url('../img/banner_1.jpg');
+  background-position: 80% center; 
+}
+
+.banner-2 {
+  background-image: url('../img/banner_2.jpg');
+  background-position: 90% center;
+}
+
+.banner-3 {
+  background-image: url('../img/banner_3.jpg');
+  background-position: 90% center;
+}
+
+
+
+.p-banner{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  
+ 
+}
+
+
+.evento-contenedor{
+  display: flex;
+  flex-direction: column; 
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+
+.evento-img {
+  flex: 1;
+  height: 100px;
+}
+
+
+.evento-texto {
+  flex: 1;
+  background-color: #EF4D5E;
+}
+
+.btn-secundario {
+  background-color: white;
+  color: #EF4D5E;
+  border: none;
+  
+}
+
+.btn-secundario:hover {
+  background-color: #ffeef1;  
+  color: #EF4D5E;
+  border-color: #EF4D5E;
+}
+
+
+
+
+.btn-secundario {
+  background-color: white;
+  color: #EF4D5E;
+  border: none;
+  
+}
+
+.btn-secundario:hover {
+  background-color: #ffeef1; 
+  color: #EF4D5E;
+  border-color: #EF4D5E;
+}
+
+textarea::placeholder,
+input::placeholder {
+  font-style: italic;
+  color: #bbb;
+}
+
+.form-control,
+.form-select {
+  border: 1px solid #EF4D5E;
+}
+
+
+
+
+.form-check-input:checked {
+  background-color: #EF4D5E; 
+  border-color: white;
+}
+
+
 .fondo-footer{
     background-color: #EF4D5E;
+    max-width: 1600px;
+    margin: 0 auto;
 }
+
+
+
+
+@media (min-width: 768px) { 
+
+  .banner-cr {
+  height: 350px; 
+}
+}
+
+
+@media (min-width: 992px) { 
+
+  .evento-contenedor {
+    flex-direction: row;
+    height: 450px;
+    
+  }
+
+  .evento-img {
+    height: 100%;
+    
+  }
+}
+
+
+
+
+
+
+  
+
